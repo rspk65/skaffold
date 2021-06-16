@@ -1,5 +1,5 @@
 ARG BASE
 FROM golang:latest as builder
-COPY web.go .
+CMD ls -lh
 # `skaffold debug` sets SKAFFOLD_GO_GCFLAGS to disable compiler optimizations
 
